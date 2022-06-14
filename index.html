@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <h1>TIP CALCULATOR</h1>
+        </div>
+        <div class="nck">
+            <div class="FIRST_P"></div>
+            <div class="SECOND_P"></div>
+            <div class="THIRD_P"></div>
+        </div>
+        <div class="stm">
+            <label>Name</label><br>
+            <input type="text" id="name"><br><br>
+            <label>Title</label><br>
+            <select id="title">
+                <option value="" id="opt0"></option>
+                <option value="Mr" id="opt0">Mr</option>
+                <option value="Mrs" id="opt1">Mrs</option>
+                <option value="Ms" id="opt2">Ms</option>
+            </select><br>
+            <label>Total_Bill</label><br>
+            <input type="text" id="bill"><br><br>
+            <label>Total_Paid</label><br>
+            <input type="text" id="paid"><br><br>
+            <label for="rate">How will you describe your experience?</label><br>
+            <select id="rate">
+                <option value="Mr">It was nice</option>
+                <option value="Mrs">It was not nice</option>
+                <option value="Ms">It was the best</option>
+            </select><br><br>
+            <button id="btn">Calculate</button>
+        </div>
+        <div class="lg">
+            <div class="CH_1">Payment cleared?<span class="ch1"></span></div>
+            <div class="CH_2">Tip?<span class="ch2"></span></div>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+:root {
+    --a: #f9f9fa;
+    --b: #292c35;
+    --c: #FCD9B8;
+    --d: #E09145;
+    --f: #f0efef;
+    --g: rgba(47, 47, 62, 0.7);
+    --h: rgba(47, 47, 62, 0.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Poppins;
+    background-image: url(Rbg.jpg);
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    min-width: 270px;
+    max-width: 700px;
+    margin: auto;
+    border: 1px solid var(--a);
+    border-radius: 5px;
+}
+
+.container .top h1 {
+    font-size: 30px;
+    font-family: inherit;
+    text-align: center;
+    background-color: var(--g);
+    border-bottom: 1px solid var(--a);
+    color: var(--c)
+}
+
+.container .nck {
+    font-family: inherit;
+    font-size: 14px;
+    margin: 15px;
+    border-radius: 4px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.err {
+    background-color: rgba(245, 182, 182, 0.7);
+}
+
+.succ {
+    background-color: rgba(194, 244, 194, 0.7);
+}
+
+.stm {
+    padding: 10px;
+    border-top: 1px solid var(--a);
+    background-color: var(--h);
+}
+
+.stm label {
+    font-family: inherit;
+    font-size: 20px;
+    color: var(--c);
+    font-weight: 700;
+}
+
+.stm input,
+.stm select {
+    padding: 8px;
+    width: 93%;
+    margin: auto;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid var(--c);
+    outline: none;
+    font-family: inherit;
+    font-weight: 700;
+    color: var(--);
+    box-shadow: 2px 2px 3px var(--b);
+}
+
+.stm input {
+    color: var(--f);
+}
+
+.stm select option {
+    filter: saturate(50%);
+}
+
+.stm button {
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+    background-color: var(--c);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Poppins;
+    color: var(--b);
+}
+
+.lg {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--c);
+    padding: 2px;
+    border-top: 1px solid gray;
+}
+
+.lg div {
+    background-color: var(--g);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.lg div span {
+    background-color: white;
+    padding: 3px;
+    border-radius: 3px;
+    visibility: hidden;
+}
+
+.r {
+    background-color: rgb(206, 13, 13);
+}
+
+.s {
+    background-color: rgb(11, 193, 11);
+}
+
+select option {
+    font-family: inherit;
+    font-weight: 700;
+}
